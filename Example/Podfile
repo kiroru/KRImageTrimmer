@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KRImageTrimmer_Example' do
+  pod 'KRImageTrimmer', :path => '../'
+
+  target 'KRImageTrimmer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

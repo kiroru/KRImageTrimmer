@@ -1,0 +1,6 @@
+framework module KRImageTrimmer {
+  umbrella header "KRImageTrimmer-umbrella.h"
+
+  export *
+  module * { export * }
+}

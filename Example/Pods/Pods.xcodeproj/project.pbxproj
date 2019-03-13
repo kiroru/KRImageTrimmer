@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D169D441539DF9BAA2F126CD429496 /* Pods-KRImageTrimmer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B71B9545B854DC76C81F2463D8DBC7 /* Pods-KRImageTrimmer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		084C0C66CEBCF8A2B04203A4336F9895 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC14D54CF483CF531F6412BFC589C4B /* CoreGraphics.framework */; };
+		0FB39D50F1BAB21CABD53181DEADBAA4 /* Pods-KRImageTrimmer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE7AD28E4DB019F9C6C0AA977D952B4 /* Pods-KRImageTrimmer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20B9E0D552A6C844E6C868357EE5C6BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D484CFBFE2A7C64F31ED406CB49E7DDE /* UIKit.framework */; };
+		27974D182047C514456BC7A5A2B56DFB /* Pods-KRImageTrimmer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0BE0A121A6BE435002BD7E16F94E2B /* Pods-KRImageTrimmer_Example-dummy.m */; };
+		327D2F08DC24094975545D8DDBD374AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AF5EA4D9F769D41042A99A80FFB9ED /* Foundation.framework */; };
+		623518A6D71A1DC4DE999953FE4014E1 /* KRImageTrimmer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 489BA62E6B53C41D36BDEC4728054061 /* KRImageTrimmer.bundle */; };
+		69500BD7DDD3209FF2018B0FEEF866EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AF5EA4D9F769D41042A99A80FFB9ED /* Foundation.framework */; };
+		843D33AF3539AE84A1A4D7030D354716 /* Pods-KRImageTrimmer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B00C27C7B4DC75DA57A7073D7497AA /* Pods-KRImageTrimmer_Tests-dummy.m */; };
+		8A7123EF26267956316C1E1BB288E415 /* KRImageTrimmer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DEEED1F2ADF4A2EB0807DE859C5C76 /* KRImageTrimmer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9956AF6B0309458C74AE15D87F9187E8 /* KRImageTrimmerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D606E78CDDF0FEB2443D2D06E4D15D2E /* KRImageTrimmerController.swift */; };
+		9F92A708F80E61E0657B2B5863D690A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AF5EA4D9F769D41042A99A80FFB9ED /* Foundation.framework */; };
+		A142D9E371A199AE0FB6EEED70D33693 /* KRImageTrimmer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F39FB0C4395164EC3B7D8553A80BA5 /* KRImageTrimmer-dummy.m */; };
+		E818E37F75C84F22887DAFBA0BA8C175 /* KRImageTrimmerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A6E3F94E1703EC0EF41F86DCB342236 /* KRImageTrimmerController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C30022E9F666723AAFE388EC468456E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C68ED4E5B622DE8D98577DBD903D7E80;
+			remoteInfo = "KRImageTrimmer-KRImageTrimmer";
+		};
+		894669B11C8FD75D6AB230E0201CBCA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE07F653FDE7BE0AB1EAB088BD29D2D0;
+			remoteInfo = "Pods-KRImageTrimmer_Example";
+		};
+		AE94967A503FEEBC58721EB9B2FF17D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A0C3800BA01C3826738824308C30903;
+			remoteInfo = KRImageTrimmer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		057259D9BD893D4B2833AE0308960B53 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0B64DA9777C45F53ACFB3FF290BD25C5 /* Pods-KRImageTrimmer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRImageTrimmer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1E87EA9818ABAE98540E8A43E79FBD07 /* Pods-KRImageTrimmer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRImageTrimmer_Tests-Info.plist"; sourceTree = "<group>"; };
+		29D2C8E9367FB41D71F1658F5F0FC4FA /* KRImageTrimmer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRImageTrimmer-prefix.pch"; sourceTree = "<group>"; };
+		332FC166E3D153520C2C43C841E1F4F8 /* Pods-KRImageTrimmer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRImageTrimmer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		35B71B9545B854DC76C81F2463D8DBC7 /* Pods-KRImageTrimmer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KRImageTrimmer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3C4FDEAD62BC012036AF8083114B16DB /* Pods-KRImageTrimmer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KRImageTrimmer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CD02F0073898B988058AD1B66F5AF4B /* KRImageTrimmer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRImageTrimmer.modulemap; sourceTree = "<group>"; };
+		4596D28B2199F45D6DD739609C5E41B7 /* Pods-KRImageTrimmer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRImageTrimmer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		46E68E5C192858A54189DD0260966D0A /* Pods-KRImageTrimmer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRImageTrimmer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		489BA62E6B53C41D36BDEC4728054061 /* KRImageTrimmer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = KRImageTrimmer.bundle; path = "KRImageTrimmer-KRImageTrimmer.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6E3F94E1703EC0EF41F86DCB342236 /* KRImageTrimmerController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = KRImageTrimmerController.xib; path = KRImageTrimmer/Assets/KRImageTrimmerController.xib; sourceTree = "<group>"; };
+		566ACC4F5284C62C3695A5D758E504FF /* Pods-KRImageTrimmer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRImageTrimmer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5C6897D6D885CF693DA17AA4E6D796C1 /* Pods-KRImageTrimmer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KRImageTrimmer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		61DEF1FE0E06D9E00C3120B206F6529F /* Pods-KRImageTrimmer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRImageTrimmer_Example-Info.plist"; sourceTree = "<group>"; };
+		69E708D523BAFC357323C8097342BBA1 /* KRImageTrimmer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRImageTrimmer.xcconfig; sourceTree = "<group>"; };
+		71F39FB0C4395164EC3B7D8553A80BA5 /* KRImageTrimmer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRImageTrimmer-dummy.m"; sourceTree = "<group>"; };
+		72B00C27C7B4DC75DA57A7073D7497AA /* Pods-KRImageTrimmer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KRImageTrimmer_Tests-dummy.m"; sourceTree = "<group>"; };
+		787956BCEBF99FD892AF11D420C4DF7A /* Pods-KRImageTrimmer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KRImageTrimmer_Example.modulemap"; sourceTree = "<group>"; };
+		7A5C1DC4DFCCF15F3C10FDA664BA300E /* Pods_KRImageTrimmer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KRImageTrimmer_Tests.framework; path = "Pods-KRImageTrimmer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC14D54CF483CF531F6412BFC589C4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		934663C1AFE54B13A21F54C0E838E2A8 /* ResourceBundle-KRImageTrimmer-KRImageTrimmer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-KRImageTrimmer-KRImageTrimmer-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2AF5EA4D9F769D41042A99A80FFB9ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A56D65E100E3DAC6AABCACF13B72398B /* KRImageTrimmer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KRImageTrimmer.framework; path = KRImageTrimmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEDF04F7C0A25C5D1875630A1938410 /* KRImageTrimmer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KRImageTrimmer-Info.plist"; sourceTree = "<group>"; };
+		B0800A9CB47744D3E6FFBF60DED77FC9 /* Pods-KRImageTrimmer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRImageTrimmer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B8BB3D6322B5D3CDB3E611AB6AD2CA8E /* Pods-KRImageTrimmer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRImageTrimmer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBF3711DB37A324CDF580687813AFCAE /* Pods-KRImageTrimmer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KRImageTrimmer_Tests.modulemap"; sourceTree = "<group>"; };
+		CA8E16C429226620479E2CFBDB7CDC83 /* KRImageTrimmer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KRImageTrimmer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D39AC52B70AF73EC7BF38C14BE96E268 /* Pods_KRImageTrimmer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KRImageTrimmer_Example.framework; path = "Pods-KRImageTrimmer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D484CFBFE2A7C64F31ED406CB49E7DDE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D5D9416659DCABE859821D05EC11BA9B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D606E78CDDF0FEB2443D2D06E4D15D2E /* KRImageTrimmerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRImageTrimmerController.swift; path = KRImageTrimmer/Classes/KRImageTrimmerController.swift; sourceTree = "<group>"; };
+		F6DEEED1F2ADF4A2EB0807DE859C5C76 /* KRImageTrimmer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRImageTrimmer-umbrella.h"; sourceTree = "<group>"; };
+		FD0BE0A121A6BE435002BD7E16F94E2B /* Pods-KRImageTrimmer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KRImageTrimmer_Example-dummy.m"; sourceTree = "<group>"; };
+		FEE7AD28E4DB019F9C6C0AA977D952B4 /* Pods-KRImageTrimmer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KRImageTrimmer_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0823644C5C9B2F4BF1ED9BDF0B504D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1636BE5C71844724881A50373A34433F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69500BD7DDD3209FF2018B0FEEF866EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D553E73A3CB1AA67450E4EC8F79C9C4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084C0C66CEBCF8A2B04203A4336F9895 /* CoreGraphics.framework in Frameworks */,
+				327D2F08DC24094975545D8DDBD374AF /* Foundation.framework in Frameworks */,
+				20B9E0D552A6C844E6C868357EE5C6BA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F699CBE5BDD42DCBE9A2384C4E5D0A08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F92A708F80E61E0657B2B5863D690A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93921280F71FF63D72A6578F440C02D2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D3D1FC73972E915A1E0808D80FE4E6D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CA8E16C429226620479E2CFBDB7CDC83 /* KRImageTrimmer.podspec */,
+				D5D9416659DCABE859821D05EC11BA9B /* LICENSE */,
+				057259D9BD893D4B2833AE0308960B53 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		34C798553F584A482A4D2C3D16C8DC51 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B35F577C3670AADDFFAAD2A422376A64 /* KRImageTrimmer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		363CBDD55A83BA3AE090474FE4760D66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A6E3F94E1703EC0EF41F86DCB342236 /* KRImageTrimmerController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		43FC7A7143A3FE064FEFD3F0D832EA4C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EAC36FE9C418854FE20E127A4160B0F /* Pods-KRImageTrimmer_Example */,
+				53622DB09B046C12DD3AE4F856912804 /* Pods-KRImageTrimmer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		53622DB09B046C12DD3AE4F856912804 /* Pods-KRImageTrimmer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BBF3711DB37A324CDF580687813AFCAE /* Pods-KRImageTrimmer_Tests.modulemap */,
+				5C6897D6D885CF693DA17AA4E6D796C1 /* Pods-KRImageTrimmer_Tests-acknowledgements.markdown */,
+				332FC166E3D153520C2C43C841E1F4F8 /* Pods-KRImageTrimmer_Tests-acknowledgements.plist */,
+				72B00C27C7B4DC75DA57A7073D7497AA /* Pods-KRImageTrimmer_Tests-dummy.m */,
+				1E87EA9818ABAE98540E8A43E79FBD07 /* Pods-KRImageTrimmer_Tests-Info.plist */,
+				35B71B9545B854DC76C81F2463D8DBC7 /* Pods-KRImageTrimmer_Tests-umbrella.h */,
+				B8BB3D6322B5D3CDB3E611AB6AD2CA8E /* Pods-KRImageTrimmer_Tests.debug.xcconfig */,
+				B0800A9CB47744D3E6FFBF60DED77FC9 /* Pods-KRImageTrimmer_Tests.release.xcconfig */,
+			);
+			name = "Pods-KRImageTrimmer_Tests";
+			path = "Target Support Files/Pods-KRImageTrimmer_Tests";
+			sourceTree = "<group>";
+		};
+		6BD3526F84717C812FD3EEEB3A7CCDA8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CD02F0073898B988058AD1B66F5AF4B /* KRImageTrimmer.modulemap */,
+				69E708D523BAFC357323C8097342BBA1 /* KRImageTrimmer.xcconfig */,
+				71F39FB0C4395164EC3B7D8553A80BA5 /* KRImageTrimmer-dummy.m */,
+				AEEDF04F7C0A25C5D1875630A1938410 /* KRImageTrimmer-Info.plist */,
+				29D2C8E9367FB41D71F1658F5F0FC4FA /* KRImageTrimmer-prefix.pch */,
+				F6DEEED1F2ADF4A2EB0807DE859C5C76 /* KRImageTrimmer-umbrella.h */,
+				934663C1AFE54B13A21F54C0E838E2A8 /* ResourceBundle-KRImageTrimmer-KRImageTrimmer-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KRImageTrimmer";
+			sourceTree = "<group>";
+		};
+		7EAC36FE9C418854FE20E127A4160B0F /* Pods-KRImageTrimmer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				787956BCEBF99FD892AF11D420C4DF7A /* Pods-KRImageTrimmer_Example.modulemap */,
+				3C4FDEAD62BC012036AF8083114B16DB /* Pods-KRImageTrimmer_Example-acknowledgements.markdown */,
+				4596D28B2199F45D6DD739609C5E41B7 /* Pods-KRImageTrimmer_Example-acknowledgements.plist */,
+				FD0BE0A121A6BE435002BD7E16F94E2B /* Pods-KRImageTrimmer_Example-dummy.m */,
+				46E68E5C192858A54189DD0260966D0A /* Pods-KRImageTrimmer_Example-frameworks.sh */,
+				61DEF1FE0E06D9E00C3120B206F6529F /* Pods-KRImageTrimmer_Example-Info.plist */,
+				FEE7AD28E4DB019F9C6C0AA977D952B4 /* Pods-KRImageTrimmer_Example-umbrella.h */,
+				0B64DA9777C45F53ACFB3FF290BD25C5 /* Pods-KRImageTrimmer_Example.debug.xcconfig */,
+				566ACC4F5284C62C3695A5D758E504FF /* Pods-KRImageTrimmer_Example.release.xcconfig */,
+			);
+			name = "Pods-KRImageTrimmer_Example";
+			path = "Target Support Files/Pods-KRImageTrimmer_Example";
+			sourceTree = "<group>";
+		};
+		829DAC8710AF841B19503D985E6ED3CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				489BA62E6B53C41D36BDEC4728054061 /* KRImageTrimmer.bundle */,
+				A56D65E100E3DAC6AABCACF13B72398B /* KRImageTrimmer.framework */,
+				D39AC52B70AF73EC7BF38C14BE96E268 /* Pods_KRImageTrimmer_Example.framework */,
+				7A5C1DC4DFCCF15F3C10FDA664BA300E /* Pods_KRImageTrimmer_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93921280F71FF63D72A6578F440C02D2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8CC14D54CF483CF531F6412BFC589C4B /* CoreGraphics.framework */,
+				A2AF5EA4D9F769D41042A99A80FFB9ED /* Foundation.framework */,
+				D484CFBFE2A7C64F31ED406CB49E7DDE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B35F577C3670AADDFFAAD2A422376A64 /* KRImageTrimmer */ = {
+			isa = PBXGroup;
+			children = (
+				D606E78CDDF0FEB2443D2D06E4D15D2E /* KRImageTrimmerController.swift */,
+				2D3D1FC73972E915A1E0808D80FE4E6D /* Pod */,
+				363CBDD55A83BA3AE090474FE4760D66 /* Resources */,
+				6BD3526F84717C812FD3EEEB3A7CCDA8 /* Support Files */,
+			);
+			name = KRImageTrimmer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				34C798553F584A482A4D2C3D16C8DC51 /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				829DAC8710AF841B19503D985E6ED3CC /* Products */,
+				43FC7A7143A3FE064FEFD3F0D832EA4C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		136FD2B07BCBDF924E3C524A303F7E8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7123EF26267956316C1E1BB288E415 /* KRImageTrimmer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F06B6D6CBC08888F4271CC6B81F6FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D169D441539DF9BAA2F126CD429496 /* Pods-KRImageTrimmer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA542BFD7DE53F00A6D8A0480179FB65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FB39D50F1BAB21CABD53181DEADBAA4 /* Pods-KRImageTrimmer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A2F3103D9D5412D3DFF41DE548112B6 /* Pods-KRImageTrimmer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E64A5EA3CDFC304E206FFB13F241B0C9 /* Build configuration list for PBXNativeTarget "Pods-KRImageTrimmer_Tests" */;
+			buildPhases = (
+				49F06B6D6CBC08888F4271CC6B81F6FD /* Headers */,
+				A7B8A953AE63EE013ADF236722B22969 /* Sources */,
+				F699CBE5BDD42DCBE9A2384C4E5D0A08 /* Frameworks */,
+				6C4AB02156C3731D4FD2E26CBBF9DCB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				555FA7D3324401E82D8F60470786B74F /* PBXTargetDependency */,
+			);
+			name = "Pods-KRImageTrimmer_Tests";
+			productName = "Pods-KRImageTrimmer_Tests";
+			productReference = 7A5C1DC4DFCCF15F3C10FDA664BA300E /* Pods_KRImageTrimmer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1A0C3800BA01C3826738824308C30903 /* KRImageTrimmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E93FA2FA3EDD26EF111C721E8456414 /* Build configuration list for PBXNativeTarget "KRImageTrimmer" */;
+			buildPhases = (
+				136FD2B07BCBDF924E3C524A303F7E8B /* Headers */,
+				D2CFB97260B0BAECDCD1E597FA14680D /* Sources */,
+				D553E73A3CB1AA67450E4EC8F79C9C4C /* Frameworks */,
+				25493118FFA3201DCDB32BD62A9AE2C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A88A911E1691F0E749461E262DCE46D5 /* PBXTargetDependency */,
+			);
+			name = KRImageTrimmer;
+			productName = KRImageTrimmer;
+			productReference = A56D65E100E3DAC6AABCACF13B72398B /* KRImageTrimmer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE07F653FDE7BE0AB1EAB088BD29D2D0 /* Pods-KRImageTrimmer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96D05175D49BBA992C1E7AA23ED52C83 /* Build configuration list for PBXNativeTarget "Pods-KRImageTrimmer_Example" */;
+			buildPhases = (
+				FA542BFD7DE53F00A6D8A0480179FB65 /* Headers */,
+				0205617873DD39D2E58E13977331B28C /* Sources */,
+				1636BE5C71844724881A50373A34433F /* Frameworks */,
+				D600B442CB85C28D89DF63AD4F844603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF1E0015D9A6AAF65BAEF19231DEE6DC /* PBXTargetDependency */,
+			);
+			name = "Pods-KRImageTrimmer_Example";
+			productName = "Pods-KRImageTrimmer_Example";
+			productReference = D39AC52B70AF73EC7BF38C14BE96E268 /* Pods_KRImageTrimmer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C68ED4E5B622DE8D98577DBD903D7E80 /* KRImageTrimmer-KRImageTrimmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045915C31301738F9654A2A0E0D2A491 /* Build configuration list for PBXNativeTarget "KRImageTrimmer-KRImageTrimmer" */;
+			buildPhases = (
+				3373D94672172759D800ED426A2F6FB0 /* Sources */,
+				0823644C5C9B2F4BF1ED9BDF0B504D5E /* Frameworks */,
+				7FBC89F3E3A097459F9AF858A1C61005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KRImageTrimmer-KRImageTrimmer";
+			productName = "KRImageTrimmer-KRImageTrimmer";
+			productReference = 489BA62E6B53C41D36BDEC4728054061 /* KRImageTrimmer.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 829DAC8710AF841B19503D985E6ED3CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A0C3800BA01C3826738824308C30903 /* KRImageTrimmer */,
+				C68ED4E5B622DE8D98577DBD903D7E80 /* KRImageTrimmer-KRImageTrimmer */,
+				BE07F653FDE7BE0AB1EAB088BD29D2D0 /* Pods-KRImageTrimmer_Example */,
+				0A2F3103D9D5412D3DFF41DE548112B6 /* Pods-KRImageTrimmer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25493118FFA3201DCDB32BD62A9AE2C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623518A6D71A1DC4DE999953FE4014E1 /* KRImageTrimmer.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4AB02156C3731D4FD2E26CBBF9DCB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FBC89F3E3A097459F9AF858A1C61005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E818E37F75C84F22887DAFBA0BA8C175 /* KRImageTrimmerController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D600B442CB85C28D89DF63AD4F844603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0205617873DD39D2E58E13977331B28C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27974D182047C514456BC7A5A2B56DFB /* Pods-KRImageTrimmer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3373D94672172759D800ED426A2F6FB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B8A953AE63EE013ADF236722B22969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843D33AF3539AE84A1A4D7030D354716 /* Pods-KRImageTrimmer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CFB97260B0BAECDCD1E597FA14680D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A142D9E371A199AE0FB6EEED70D33693 /* KRImageTrimmer-dummy.m in Sources */,
+				9956AF6B0309458C74AE15D87F9187E8 /* KRImageTrimmerController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		555FA7D3324401E82D8F60470786B74F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KRImageTrimmer_Example";
+			target = BE07F653FDE7BE0AB1EAB088BD29D2D0 /* Pods-KRImageTrimmer_Example */;
+			targetProxy = 894669B11C8FD75D6AB230E0201CBCA6 /* PBXContainerItemProxy */;
+		};
+		A88A911E1691F0E749461E262DCE46D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "KRImageTrimmer-KRImageTrimmer";
+			target = C68ED4E5B622DE8D98577DBD903D7E80 /* KRImageTrimmer-KRImageTrimmer */;
+			targetProxy = 0C30022E9F666723AAFE388EC468456E /* PBXContainerItemProxy */;
+		};
+		CF1E0015D9A6AAF65BAEF19231DEE6DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KRImageTrimmer;
+			target = 1A0C3800BA01C3826738824308C30903 /* KRImageTrimmer */;
+			targetProxy = AE94967A503FEEBC58721EB9B2FF17D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2FC13F4F7C1B0B43C40805A27FA34189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69E708D523BAFC357323C8097342BBA1 /* KRImageTrimmer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KRImageTrimmer";
+				INFOPLIST_FILE = "Target Support Files/KRImageTrimmer/ResourceBundle-KRImageTrimmer-KRImageTrimmer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = KRImageTrimmer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		42F6A6518FB796C677167DAA23BD196C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69E708D523BAFC357323C8097342BBA1 /* KRImageTrimmer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KRImageTrimmer";
+				INFOPLIST_FILE = "Target Support Files/KRImageTrimmer/ResourceBundle-KRImageTrimmer-KRImageTrimmer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = KRImageTrimmer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		61A59654ACB4D93C896E13BE48E1A268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B64DA9777C45F53ACFB3FF290BD25C5 /* Pods-KRImageTrimmer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KRImageTrimmer_Example/Pods-KRImageTrimmer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KRImageTrimmer_Example/Pods-KRImageTrimmer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E5AB11C0A2B9E85A72A9960265FCFFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0800A9CB47744D3E6FFBF60DED77FC9 /* Pods-KRImageTrimmer_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KRImageTrimmer_Tests/Pods-KRImageTrimmer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KRImageTrimmer_Tests/Pods-KRImageTrimmer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AFD69408BFBB250DC01C8CB07E311E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69E708D523BAFC357323C8097342BBA1 /* KRImageTrimmer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KRImageTrimmer/KRImageTrimmer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRImageTrimmer/KRImageTrimmer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KRImageTrimmer/KRImageTrimmer.modulemap";
+				PRODUCT_MODULE_NAME = KRImageTrimmer;
+				PRODUCT_NAME = KRImageTrimmer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9086B2DE40F017AF98E6F522CACEC314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69E708D523BAFC357323C8097342BBA1 /* KRImageTrimmer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KRImageTrimmer/KRImageTrimmer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRImageTrimmer/KRImageTrimmer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KRImageTrimmer/KRImageTrimmer.modulemap";
+				PRODUCT_MODULE_NAME = KRImageTrimmer;
+				PRODUCT_NAME = KRImageTrimmer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E5A944ACC3E046E9140CFD55B6234984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 566ACC4F5284C62C3695A5D758E504FF /* Pods-KRImageTrimmer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KRImageTrimmer_Example/Pods-KRImageTrimmer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KRImageTrimmer_Example/Pods-KRImageTrimmer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EBC3AEC876E3A50837CD224F3E1AD573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8BB3D6322B5D3CDB3E611AB6AD2CA8E /* Pods-KRImageTrimmer_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KRImageTrimmer_Tests/Pods-KRImageTrimmer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KRImageTrimmer_Tests/Pods-KRImageTrimmer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		045915C31301738F9654A2A0E0D2A491 /* Build configuration list for PBXNativeTarget "KRImageTrimmer-KRImageTrimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F6A6518FB796C677167DAA23BD196C /* Debug */,
+				2FC13F4F7C1B0B43C40805A27FA34189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E93FA2FA3EDD26EF111C721E8456414 /* Build configuration list for PBXNativeTarget "KRImageTrimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFD69408BFBB250DC01C8CB07E311E6 /* Debug */,
+				9086B2DE40F017AF98E6F522CACEC314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96D05175D49BBA992C1E7AA23ED52C83 /* Build configuration list for PBXNativeTarget "Pods-KRImageTrimmer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A59654ACB4D93C896E13BE48E1A268 /* Debug */,
+				E5A944ACC3E046E9140CFD55B6234984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E64A5EA3CDFC304E206FFB13F241B0C9 /* Build configuration list for PBXNativeTarget "Pods-KRImageTrimmer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC3AEC876E3A50837CD224F3E1AD573 /* Debug */,
+				6E5AB11C0A2B9E85A72A9960265FCFFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_KRImageTrimmer_Tests {
+  umbrella header "Pods-KRImageTrimmer_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

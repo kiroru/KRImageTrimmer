@@ -1,0 +1,32 @@
+{
+  "name": "KRImageTrimmer",
+  "version": "0.0.5",
+  "summary": "Prepare a screen to cut the image into squares.",
+  "description": "Prepare a screen to cut the image into squares. You can enlarge, reduce and move.",
+  "homepage": "http://192.168.111.212/lib/KRImageTrimmer.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "takeguchi": "takeguchi@kiroru-inc.jp"
+  },
+  "source": {
+    "git": "http://192.168.111.212/lib/KRImageTrimmer.git",
+    "tag": "0.0.5"
+  },
+  "swift_version": "4.2",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "KRImageTrimmer/Classes/**/*.swift",
+  "resource_bundles": {
+    "KRImageTrimmer": [
+      "KRImageTrimmer/Assets/**/*.xib"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "CoreGraphics"
+  ]
+}

@@ -1,0 +1,16 @@
+PODS:
+  - KRImageTrimmer (0.0.5)
+
+DEPENDENCIES:
+  - KRImageTrimmer (from `../`)
+
+EXTERNAL SOURCES:
+  KRImageTrimmer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KRImageTrimmer: 4181106269673eb20294c470cd4bd4e8a2a99aa0
+
+PODFILE CHECKSUM: d946ee6dbfc96e9ea13c4741f351a60fd23b353a
+
+COCOAPODS: 1.6.0

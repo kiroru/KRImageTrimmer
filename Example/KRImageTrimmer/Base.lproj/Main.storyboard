@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fQb-sf-i5T">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="VFH-fx-1P1">
+            <objects>
+                <navigationController id="fQb-sf-i5T" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IMs-h6-SyE">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="1kB-Bj-NuD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TGO-4f-SHz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-697" y="3"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ImageTrimer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cDQ-kf-AS3">
+                                <rect key="frame" x="0.0" y="64" width="375" height="558"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="st8-Op-Of8">
+                                <rect key="frame" x="0.0" y="622" width="375" height="45"/>
+                                <state key="normal" title="trim"/>
+                                <connections>
+                                    <action selector="imagePickAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="azb-4L-o5N"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="st8-Op-Of8" firstAttribute="top" secondItem="cDQ-kf-AS3" secondAttribute="bottom" id="3Mu-fn-MWi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="st8-Op-Of8" secondAttribute="trailing" id="8RB-Uf-WIr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cDQ-kf-AS3" secondAttribute="trailing" id="Lx6-vz-Fsp"/>
+                            <constraint firstItem="cDQ-kf-AS3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Nzr-u8-Mpn"/>
+                            <constraint firstItem="st8-Op-Of8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-45" id="Xhf-iH-HXf"/>
+                            <constraint firstItem="st8-Op-Of8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iHu-tC-UPr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="st8-Op-Of8" secondAttribute="bottom" id="xbk-W3-4Xw"/>
+                            <constraint firstItem="cDQ-kf-AS3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zEu-Fn-ZKh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6rk-dc-JjD"/>
+                    <connections>
+                        <outlet property="imageView" destination="cDQ-kf-AS3" id="q3m-WZ-aBs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
