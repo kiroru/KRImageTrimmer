@@ -13,7 +13,7 @@ KRImageTrimmer provides a screen to cut the image to be edited into a square.
 
 ## Example
 
-This is a sample to get an image from a camera or photo library and crop it with this library.
+This is a sample to get an image from a camera or photo library and crop it with this library.  
 You can execute the sample in the following command.
 
 Run `try pod` to open the sample project.
@@ -43,7 +43,7 @@ To install, add the following line to `Cartfile`.
 git "https://github.com/kiroru/KRImageTrimmer.git"
 ```
 
-After building the framework by running `carthage update`, 
+After building the framework by running `carthage update`,   
 link` KRImageTrimmer.framework` to the project and import it with `import KRImageTrimmer`.
 
 ## Basic Usage
